@@ -1,0 +1,40 @@
+[project]
+name = "M3N-VC"
+version = "0.1.0"
+description = "M3N-VC Dataset: Multi-Modality Multi-Node Vehicle Classification"
+readme = "README.md"
+authors = [{ name = "Jinyang Li", email = "jinyang7@illinois.edu" }]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "polars>=1.27.1",
+    "scipy>=1.15.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+lint.extend-select = ['Q', 'RUF100', 'C90', 'I', 'TC']
+lint.unfixable = ['F401']
+lint.flake8-quotes = { inline-quotes = 'single', multiline-quotes = 'double' }
+lint.mccabe = { max-complexity = 13 }
+format = { quote-style = 'single' }
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
+reportExplicitAny = false
+reportAny = false
+reportPrivateUsage = false
+
+[tool.uv.pip]
+generate-hashes = true
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.28.5",
+    "ruff>=0.11.5",
+]
