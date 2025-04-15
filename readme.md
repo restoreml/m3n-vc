@@ -20,7 +20,7 @@ If you use M3N-VC dataset in your work, please cite
 @inproceedings{li2025restoreml,
   author    = {Jinyang Li and Yizhuo Chen and Ruijie Wang and Tomoyoshi Kimura and Tianshi Wang and You Lyu and Hongjue Zhao and Binqi Sun and Shangchen Wu and Yigong Hu and Denizhan Kara and Beitong Tian and Klara Nahrstedt and Suhas Diggavi and Jae H. Kim and Greg Kimberly and Guijun Wang and Maggie Wigness and Tarek Abdelzaher},
   title     = {{RestoreML}: Practical Unsupervised Tuning of Deployed Intelligent IoT Systems},
-  booktitle = {2025 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)},
+  booktitle = {2025 The 21st International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)},
   year      = {2025},
   publisher = {IEEE}
 }
