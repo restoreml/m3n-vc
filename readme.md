@@ -10,7 +10,9 @@ It contains synchronized microphone and geophone recordings of four different
 vehicles, captured in multiple real-world scenes using spatially distributed
 sensor nodes.
 
-## Citation
+## Use M3N-VC
+
+Download M3N-VC here: <https://doi.org/10.5281/zenodo.15215210>
 
 If you use M3N-VC dataset in your work, please cite
 
